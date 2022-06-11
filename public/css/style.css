@@ -1,0 +1,12 @@
+.checked:checked ~ span > .bi {
+    transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+    transition: transform .15s ease-in-out;
+            -webkit-transition: transform .15s ease-in-out;
+            -moz-transition: transform .15s ease-in-out;
+            -ms-transition: transform .15s ease-in-out;
+            -o-transition: transform .15s ease-in-out;
+}
