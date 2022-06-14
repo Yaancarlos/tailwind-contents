@@ -10,3 +10,31 @@
             -ms-transition: transform .15s ease-in-out;
             -o-transition: transform .15s ease-in-out;
 }
+
+::-webkit-scrollbar {
+        width: 8px;
+}
+::-webkit-scrollbar-track {
+        background: #ffffff; 
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+        background: #1d0e62e3;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+        background: #1E0E62; 
+}
+
+.scroll-b::-webkit-scrollbar{
+        height: 8px;
+}
